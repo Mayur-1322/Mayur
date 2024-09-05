@@ -1,0 +1,263 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyNu4uoa2L5zP1tHk/5akHpU",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/Mayur-1322/Mayur/blob/main/Assignment%20-1%20(PW)\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "1)\texplain the key features of Python that make it a popular choice for programming.\n",
+        "1.\tReadability and Simplicity\n",
+        "•\tPython places a strong emphasis on clean, readable code. Its syntax is designed to be highly readable, with minimal use of brackets and a clear layout using indentation and whitespace.\n",
+        "•\tPython’s simplicity and readability make it an ideal choice for both beginners and experienced developers.\n",
+        "2.\tExtensive Standard Library\n",
+        "•\tPython comes with an extensive standard library, which is a collection of modules and packages that offer a wide range of functionalities.\n",
+        "•\tPython’s standard library includes modules and packages for regular expressions, GUI programming, networking, data processing, and much more. This vast ecosystem ensures that developers have access to a wide array of tools without the need for external dependencies.\n",
+        "3.\tCross-Platform Compatibility\n",
+        "•\tPython’s cross-platform compatibility allows it to run seamlessly on different operating systems such as Windows, macOS, and Linux. Developers can write their code once and deploy it on multiple platforms, saving time and effort in application development.\n",
+        "•\tCross-platform compatibility is crucial in modern software development, as it enables applications to reach a broader audience across various devices and operating systems..\n",
+        "4.\tDynamic Typing and Dynamic Binding\n",
+        "•\tPython is a dynamically-typed language, which means that the type of a variable is determined at runtime. Unlike statically-typed languages, such as C++ or Java, Python does not require explicit type declarations..\n",
+        "•\tDynamic binding, another key feature of Python, allows variables to be bound to different objects at runtime.  \n",
+        "5.\tStrong Community Support\n",
+        "\tPython enjoys a vibrant and supportive community of developers worldwide. This community provides various resources, including forums, online communities, and open-source projects.\n",
+        "\n",
+        "2) Describe the role of predefined keywords in python and provide example of how they are used in a program.\n",
+        "\n",
+        "Predefined keywords in Python are reserved words that have special meaning within the language. These keywords are integral to Python's syntax and structure, and they cannot be used as identifiers (e.g., variable names, function names) because they are reserved for specific programming functions.\n",
+        "Role of Predefined Keywords:\n",
+        "1.\tDefining Structure and Flow: Keywords help define the structure of Python code, including loops, conditionals, functions, and classes.\n",
+        "2.\tControl Flow: Keywords control the flow of the program, such as determining the execution of blocks of code (e.g., if, else, while, for).\n",
+        "3.\tData Management: Keywords like True, False, None, and class help manage data and its behaviour.\n",
+        "4.\tException Handling: Keywords such as try, except, finally, and raise are used to handle exceptions and errors in the code.\n",
+        "\n",
+        "3)Compare and contrast mutable and immutable objects in Python with examples.\n",
+        "\n",
+        "In Python, objects can be categorized as mutable or immutable based on whether their state (i.e., their data or attributes) can be modified after they are created.\n",
+        "Mutable Objects:\n",
+        "•\tDefinition: Mutable objects are those that can be modified after they are created. You can change the contents or state of a mutable object without creating a new object.\n",
+        "•\tExamples: Lists, dictionaries, sets, and byte arrays are common examples of mutable objects.\n",
+        "Immutable Objects:\n",
+        "•\tDefinition: Immutable objects cannot be modified after they are created. Any operation that appears to modify an immutable object actually creates a new object with the modified content.\n",
+        "•\tExamples: Strings, tuples, integers, floats, and frozen sets are common examples of immutable objects.\n",
+        "•\tComparison:\n",
+        "\n",
+        "Feature\tMutable Objects\tImmutable Objects\n",
+        "\n",
+        "Modification\n",
+        "Can be modified after creation\n",
+        "Cannot be modified after creation\n",
+        "Examples\tLists, dictionaries, sets\tStrings, tuples, integers, floats\n",
+        "\n",
+        "Memory Behaviour\tModifications happen in place\tModifications result in a new object\n",
+        "\n",
+        "Function Behaviour\n",
+        "Changes in functions persist outside\n",
+        "Changes in functions do not affect the original object\n",
+        "\n",
+        "Use Cases\n",
+        "When the object needs frequent updates\n",
+        "When the object should remain constant\n",
+        "\n",
+        "\n",
+        "Summary:\n",
+        "•\tMutable objects offer flexibility, allowing changes in place, but they can introduce complexity with side effects.\n",
+        "•\tImmutable objects provide safety, ensuring that the data remains consistent and unchangeable, You can change the contents or state of a mutable object without creating a new object.\n",
+        "\n",
+        "4)discuss the different types of operators in python and provide example of how they are used.\n",
+        "1.\tArithmetic Operators\n",
+        "\n",
+        "Arithmetic operators are used to perform basic mathematical operations.\n",
+        "\n",
+        "Operator\tDescription\tExample\tOutput\n",
+        "+\tAddition\t5 + 3\t8\n",
+        "-\tSubtraction\t10 - 4\t6\n",
+        "*\tMultiplication\t7 * 6\t42\n",
+        "/\tDivision\t20 / 5\t4.0\n",
+        "%\tModulus\t10 % 3\t1\n",
+        "**\tExponentiation\t2 ** 3\t8\n",
+        "//\tFloor Division\t22 // 7\t3\n",
+        "\n"
+      ],
+      "metadata": {
+        "id": "zLsfdsQW9iKf"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "Example:\n",
+        "\n",
+        "python Copy code\n",
+        "# Arithmetic operations a = 15\n",
+        "b = 4\n",
+        "\n",
+        "print(a + b) # Output: 19 print(a - b) # Output: 11 print(a * b) # Output: 60 print(a / b) # Output: 3.75 print(a % b) # Output: 3 print(a ** b) # Output: 50625 print(a // b) # Output: 3\n"
+      ],
+      "metadata": {
+        "id": "N-Nshidf9_q8"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "2.\tComparison Operators\n",
+        "\n",
+        "Comparison operators are used to compare two values. They return True or False based on the comparison.\n",
+        "\n",
+        "Operator\tDescription\tExample\tOutput\n",
+        "==\tEqual to\t5 == 3\tFalse\n",
+        "!=\tNot equal to\t5 != 3\tTrue\n",
+        ">\tGreater than\t5 > 3\tTrue\n",
+        "<\tLess than\t5 < 3\tFalse\n",
+        ">=\tGreater than or equal to\t5 >= 3\tTrue\n",
+        "<=\tLess than or equal to\t5 <= 3\tFalse\n",
+        "\n"
+      ],
+      "metadata": {
+        "id": "EcUy6RFC-GgT"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "Example:\n",
+        "\n",
+        "python Copy code\n",
+        "# Comparison operations x = 10\n",
+        "y = 15\n",
+        "\n",
+        "print(x == y) # Output: False print(x != y) # Output: True print(x > y)\t# Output: False print(x < y)\t# Output: True print(x >= y) # Output: False print(x <= y) # Output: True\n"
+      ],
+      "metadata": {
+        "id": "egu0nQXm-TOQ"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "3.\tLogical Operators\n",
+        "\n",
+        "Logical operators are used to combine conditional statements.\n",
+        "\n",
+        "Operator\tDescription\tExample\tOutput\n",
+        "and\tReturns True if both statements are true\tTrue and False\tFalse\n",
+        "or\tReturns True if one of the statements is true\tTrue or False\tTrue\n",
+        "\n",
+        "Operator\tDescription\tExample\tOutput\n",
+        "not\tReverses the result, returns False if the result is true\tnot True\tFalse\n"
+      ],
+      "metadata": {
+        "id": "i4tEsevk-XRf"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "Example:\n",
+        "\n",
+        "python Copy code\n",
+        "# Logical operations a = True\n",
+        "b = False\n",
+        "\n",
+        "print(a and b) # Output: False print(a or b)\t# Output: True print(not a)\t# Output: False\n"
+      ],
+      "metadata": {
+        "id": "QUqJFQe6-eDP"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "explain the concept of type casting in python with example\n",
+        "\n",
+        "Type casting in Python refers to the conversion of one data type to another. This is useful when you need to perform operations that require a specific data type or when you want to avoid type-related errors. Python provides both implicit and explicit type casting.\n",
+        "1. Implicit Type Casting\n",
+        "•\tDefinition: Python automatically converts one data type to another without the programmer's intervention. This usually happens when performing operations between different types, where Python tries to prevent data loss or errors.\n",
+        "2. Explicit Type Casting\n",
+        "•\tDefinition: Explicit type casting (also known as type conversion) is when the programmer manually converts one data type to another using built-in functions.\n",
+        "•\tCommon Type Casting Functions:\n",
+        "•\tint(): Converts a value to an integer.\n",
+        "•\tfloat(): Converts a value to a float.\n",
+        "•\tstr(): Converts a value to a string.\n",
+        "•\tlist(): Converts a value (such as a tuple or a string) to a list.\n",
+        "•\ttuple(): Converts a value (such as a list) to a tuple.\n",
+        "Key Points to Remember:\n",
+        "•\tImplicit Type Casting is done automatically by Python to prevent data loss or errors.\n",
+        "•\tExplicit Type Casting is done manually by the programmer using built-in functions.\n",
+        "•\tBe cautious when casting types, as incorrect casting (e.g., trying to convert a non-numeric string to an integer) can lead to runtime errors.\n",
+        "•\tType casting is especially useful when handling data input, performing mathematical operations, or working with different data structures.\n",
+        "\n",
+        "6)How do conditional statement work in python ? illustrate with example.\n",
+        "\n",
+        "Conditional statements in Python allow you to execute specific blocks of code based on certain conditions. These conditions evaluate to either True or False, and the corresponding block of code is executed accordingly.\n",
+        "\n",
+        "Use of if block\n",
+        "The if statement checks a condition (an expression that evaluates to either True or False). If the condition is True, the block of code inside the if statement is executed.\n",
+        "\n",
+        "Use of else block\n",
+        "The else statement is used to execute a block of code if the condition in the if statement is False.\n",
+        "Use of else if block\n",
+        "Short for \"else if,\" the elif statement allows you to check multiple conditions. If the if condition is False, the elif condition is checked. You can have multiple elif statements.\n",
+        "\n",
+        "•\tIf age is less than 18, \"You are a minor.\" is printed.\n",
+        "•\tIf age is exactly 18, \"You are exactly 18.\" is printed.\n",
+        "•\tIf age is greater than 18, \"You are an adult.\" is printed.\n",
+        "\n",
+        "Output:\n",
+        "\n",
+        "sql\n",
+        "Copy code\n",
+        "You are an adult.\n",
+        "\n",
+        "7)Describe the different types of loops in python and their use cases with example\n",
+        "Types of Loops in Python\n",
+        "\n",
+        "Python provides three primary types of loops for iterating over sequences, running repetitive tasks, or managing conditions:\n",
+        "\n",
+        "1.\tfor Loop\n",
+        "2.\twhile Loop\n",
+        "3.\tNested Loops\n",
+        "\n",
+        "Use of while loop\n",
+        "The while loop continues to execute a block of code as long as the specified condition remains true.\n",
+        "Use of for loop\n",
+        "For loops in Python are used to iterate over a sequence (like a list, tuple, string, or range) and execute a block of code for each item in that sequence. The number of iterations is determined by the sequence's length or a specified range.\n",
+        "both for and while loops are essential in python ,each with its own strength and use cases depending on wether the number of iterations is known or determined by a condition.\n",
+        "\n"
+      ],
+      "metadata": {
+        "id": "d_bi1t-u-noX"
+      }
+    }
+  ]
+}
